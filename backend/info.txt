@@ -1,0 +1,3 @@
+cors ko hum just iss liy use karty han k outside server ko apny server sy access kar saky
+dotenv is just an devlopment envirement jo k development ko easy karta hy
+its loads envirement variables from .env file

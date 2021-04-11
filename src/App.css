@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.navbtn {
+  font-family: "Roboto", sans-serif;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 5px;
+  color: blueViolet;
+  font-weight: 300;
+}
+.navbtn2 {
+  font-family: "Roboto", sans-serif;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 5px;
+  color: blueViolet;
+  border: 2px solid blueviolet;
+  background-color: white;
+  padding: 7px;
+  font-weight: 300;
+}
+.navbtn:hover {
+  border: 2px solid blueviolet;
+  border-radius: 7px;
+  background-color: blueviolet;
+  color: white !important;
+}
+.navbtn2:hover {
+  border-radius: 7px;
+  background-color: blueviolet;
+  color: white !important;
+}
+.border {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid blueviolet !important;
+}
+.textcolorw {
+  font-weight: 550;
+  color: blueViolet;
+  font-family: "Roboto", sans-serif;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 8px;
+  margin-right: 8px;
+  text-transform: capitalize;
+  padding: 5px;
+}
+.justColor {
+  color: blueViolet;
+}
+.activeNavbtn {
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
